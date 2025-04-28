@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="Coursery.Application.UseCases.Add.AddCourse" Collapsed="true">
+    <Position X="19.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Add\AddCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.AddHistoryRecord" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Add\AddHistoryRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.AddLesson" Collapsed="true">
+    <Position X="19.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Add\AddLesson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.AddModule" Collapsed="true">
+    <Position X="22" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Add\AddModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.AddReview" Collapsed="true">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Add\AddReview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.DeleteCourse" Collapsed="true">
+    <Position X="19.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Delete\DeleteCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.GetCourse" Collapsed="true">
+    <Position X="22" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.GetHistoryRecord" Collapsed="true">
+    <Position X="19.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetHistoryRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.GetModule" Collapsed="true">
+    <Position X="19.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.UpdateCourse" Collapsed="true">
+    <Position X="22" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Update\UpdateCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.UpdateUser" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Update\UpdateUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Add.EnrollCourse" Collapsed="true">
+    <Position X="22" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\EnrollCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetCourses" Collapsed="true">
+    <Position X="22" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetCourses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetCreatedCourses" Collapsed="true">
+    <Position X="22" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetCreatedCourses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetEnrolledCourses" Collapsed="true">
+    <Position X="19.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetEnrolledCourses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetLessonsForUser" Collapsed="true">
+    <Position X="19.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetLessonsForUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetModulesByCourseId" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetModulesByCourseId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.Get.GetReviewsByCourseId" Collapsed="true">
+    <Position X="22" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\Get\GetReviewsByCourseId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Application.UseCases.BaseUseCase&lt;TRequest, TResponse&gt;" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCases\BaseUseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CourseryPL.Controllers.CourseController">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAABhAIAABAAQABBCAAgAAABAqAEABAA=</HashCode>
+      <FileName>Controllers\CourseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.HistoryController">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\HistoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.ImageController">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAEAAAAAACAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ImageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.LessonController">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAFAAAAAAAAAAABAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Controllers\LessonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.ModuleController">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAgAAAAAAAABAAAAAAAABAgAQAAAAAAAAAAAg=</HashCode>
+      <FileName>Controllers\ModuleController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.ReviewController">
+    <Position X="13.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Controllers\ReviewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseryPL.Controllers.UserController">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAhEAAQAEAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

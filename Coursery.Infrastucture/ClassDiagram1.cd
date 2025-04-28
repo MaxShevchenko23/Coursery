@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coursery.Infrastucture.Data.CourseryDbContext">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAQAAAAAAAAAAAAAQEAAAAAAAAACSABIAAAA=</HashCode>
+      <FileName>Data\CourseryDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.CourseRepository" BaseTypeListCollapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <AssociationLine Name="_context" Type="Coursery.Infrastucture.Data.CourseryDbContext" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="8.125" />
+        <Point X="6.875" Y="8.125" />
+        <Point X="6.875" Y="5.225" />
+        <Point X="8" Y="5.225" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAACAABAAAAEAAAAEAAAAAAAgBAAAAgAAAIIA=</HashCode>
+      <FileName>Repositories\CourseRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.HistoryRepository" BaseTypeListCollapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <AssociationLine Name="_context" Type="Coursery.Infrastucture.Data.CourseryDbContext" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="2.875" />
+        <Point X="7.125" Y="2.875" />
+        <Point X="7.125" Y="3.687" />
+        <Point X="8" Y="3.687" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAEAAAAEACAABAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Repositories\HistoryRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.LessonRepository" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAABAAAAAAAAAEAAACAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Repositories\LessonRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.ModuleRepository" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <AssociationLine Name="_context" Type="Coursery.Infrastucture.Data.CourseryDbContext" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.688" />
+        <Point X="8" Y="4.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAABAAAAAAAAAEAAAAAAAwAABAAAAAAIIA=</HashCode>
+      <FileName>Repositories\ModuleRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.ReviewRepository" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <AssociationLine Name="_context" Type="Coursery.Infrastucture.Data.CourseryDbContext" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="7.816" />
+        <Point X="10.375" Y="7.816" />
+        <Point X="10.375" Y="5.225" />
+        <Point X="9.5" Y="5.225" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAACAABAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Repositories\ReviewRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Coursery.Infrastucture.Repositories.UserRepository" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="_context" Type="Coursery.Infrastucture.Data.CourseryDbContext" FixedFromPoint="true">
+      <Path>
+        <Point X="10.75" Y="4.812" />
+        <Point X="9.5" Y="4.812" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAACAABAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_context" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

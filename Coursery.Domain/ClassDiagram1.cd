@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coursery.Domain.Entities.Homework">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Entities\Homework.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lesson" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.Enroll">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <AssociationLine Name="User" Type="Coursery.Domain.Entities.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.688" Y="6.766" />
+        <Point X="7.688" Y="8.877" />
+        <Point X="9.604" Y="8.877" Type="JumpStart" />
+        <Point X="9.771" Y="8.877" Type="JumpEnd" />
+        <Point X="10.604" Y="8.877" Type="JumpStart" />
+        <Point X="10.771" Y="8.877" Type="JumpEnd" />
+        <Point X="11.344" Y="8.877" />
+        <Point X="11.344" Y="7.438" />
+        <Point X="12" Y="7.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Enroll.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Course" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.History">
+    <Position X="14.25" Y="5.5" Width="1.5" />
+    <AssociationLine Name="Lesson" Type="Coursery.Domain.Entities.Lesson">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.6" Y="0.063" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAEAAAAAACAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\History.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lesson" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.Module">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <AssociationLine Name="Lessons" Type="Coursery.Domain.Entities.Lesson">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.255" Y="0.841" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Course" Type="Coursery.Domain.Entities.Course">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.027" Y="1.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAMACEAAAAgACAAAIAAAAQABAACAAAAAAAYAAAAAAA=</HashCode>
+      <FileName>Entities\Module.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Lessons" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.Review">
+    <Position X="16.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAEAAAAAAAAAIAAAAgAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Review.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Course" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.User">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFEACCAEgCAAEAgAAAIAAAAAAAAKAAAgAAAAAAg=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Coursery.Domain.BaseEntity">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAIAAAA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.Lesson">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgACAAAAACAAQAAAAAAAAAAAIACAAAAAA=</HashCode>
+      <FileName>Entities\Lesson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursery.Domain.Entities.Course">
+    <Position X="8.5" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="Coursery.Domain.BaseEntity" FixedFromPoint="true">
+      <Path>
+        <Point X="10.688" Y="4.106" />
+        <Point X="10.688" Y="9.375" />
+        <Point X="9.771" Y="9.375" Type="JumpStart" />
+        <Point X="9.604" Y="9.375" Type="JumpEnd" />
+        <Point X="9.25" Y="9.375" />
+        <Point X="9.25" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>GAQgAEAECSAgAAAAkAIAAAQ0ACBBFAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Coursery.Domain.Entities.Role">
+    <Position X="12" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

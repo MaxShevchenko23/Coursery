@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs projects\\Coursery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3AAA83-8D68-40B9-9F91-DAB3B217B9BD}|Coursery.TESTS\\Coursery.TESTS.csproj|d:\\vs projects\\coursery\\coursery.tests\\infratests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3AAA83-8D68-40B9-9F91-DAB3B217B9BD}|Coursery.TESTS\\Coursery.TESTS.csproj|solutionrelative:coursery.tests\\infratests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3AAA83-8D68-40B9-9F91-DAB3B217B9BD}|Coursery.TESTS\\Coursery.TESTS.csproj|d:\\vs projects\\coursery\\coursery.tests\\coursery.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE3AAA83-8D68-40B9-9F91-DAB3B217B9BD}|Coursery.TESTS\\Coursery.TESTS.csproj|solutionrelative:coursery.tests\\coursery.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23047E4B-ED22-4935-B5BC-24CDB15B12A5}|Coursery.API\\Coursery.API.csproj|d:\\vs projects\\coursery\\coursery.api\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{23047E4B-ED22-4935-B5BC-24CDB15B12A5}|Coursery.API\\Coursery.API.csproj|solutionrelative:coursery.api\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Coursery.TESTS",
+              "DocumentMoniker": "D:\\vs projects\\Coursery\\Coursery.TESTS\\Coursery.TESTS.csproj",
+              "RelativeDocumentMoniker": "Coursery.TESTS\\Coursery.TESTS.csproj",
+              "ToolTip": "D:\\vs projects\\Coursery\\Coursery.TESTS\\Coursery.TESTS.csproj",
+              "RelativeToolTip": "Coursery.TESTS\\Coursery.TESTS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T13:32:44.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfraTests.cs",
+              "DocumentMoniker": "D:\\vs projects\\Coursery\\Coursery.TESTS\\InfraTests.cs",
+              "RelativeDocumentMoniker": "Coursery.TESTS\\InfraTests.cs",
+              "ToolTip": "D:\\vs projects\\Coursery\\Coursery.TESTS\\InfraTests.cs",
+              "RelativeToolTip": "Coursery.TESTS\\InfraTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:32:53.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "D:\\vs projects\\Coursery\\Coursery.API\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "Coursery.API\\ClassDiagram1.cd",
+              "ToolTip": "D:\\vs projects\\Coursery\\Coursery.API\\ClassDiagram1.cd",
+              "RelativeToolTip": "Coursery.API\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-04-28T13:28:57.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
