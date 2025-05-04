@@ -13,7 +13,6 @@ public class CourseRepository : ICourseRepository
     {
         _context = context;
     }
-   
     public async Task<Course> GetByIdAsync(int id)
     {
         var course = await _context.Courses
@@ -53,7 +52,6 @@ public class CourseRepository : ICourseRepository
     {
         return await _context.Courses.ToListAsync();
     }
-    
     public async Task<Course> AddAsync(Course entity)
     {
         
@@ -61,14 +59,11 @@ public class CourseRepository : ICourseRepository
         await _context.SaveChangesAsync();
         return created.Entity;
     }
-    
-    
     public async Task UpdateAsync(Course entity)
     {
         _context.Courses.Update(entity);
         await _context.SaveChangesAsync();
     }
-    
     public async Task DeleteAsync(int id)
     {
         var entity = await _context.Courses.FindAsync(id);
@@ -78,18 +73,38 @@ public class CourseRepository : ICourseRepository
             await _context.SaveChangesAsync();
         }
     }
-
-    public async Task<IList<Course>> GetCoursesPaginated(int page, int pageSize)
+    public async Task<IList<Course>> GetCoursesPaginated(int page, int pageSize, string? category, 
+        decimal? minPrice, decimal? maxPrice, string? keyword)
     {
-        var courses = 
-            await _context.Courses
-                .Skip((page-1) * pageSize)
-                .Take(pageSize)
-                .ToListAsync();
+        var query = _context.Courses.AsQueryable();
+        
+        if (!string.IsNullOrEmpty(category))
+        {
+            query = query.Where(c => c.Categories.Contains(category));
+        }
+        
+        if (minPrice.HasValue)
+        {
+            query = query.Where(c => c.Price >= minPrice.Value);
+        }
+        
+        if (maxPrice.HasValue)
+        {
+            query = query.Where(c => c.Price <= maxPrice.Value);
+        }
+        
+        if (!string.IsNullOrEmpty(keyword))
+        {
+            query = query.Where(c => c.Name.Contains(keyword) || c.Description.Contains(keyword));
+        }
+        
+        var courses = await query
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
         
         return courses;
     }
-
     public async Task<IList<Course>> GetEnrolledCourses(int userId)
     {
         var enrolls =
@@ -103,12 +118,10 @@ public class CourseRepository : ICourseRepository
         
         return courses;
     }
-
     public void Dispose()
     {
         _context.Dispose();
     }
-
     public async Task<Course> Enroll((int userId, int courseId) value)
     {
         var enroll = new Enroll
@@ -122,7 +135,6 @@ public class CourseRepository : ICourseRepository
 
         return new Course();
     }
-    
     public async Task<List<Course>> GetCreatedCourses(int userId)
     {
         var courses = await _context.Courses

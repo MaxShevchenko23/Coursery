@@ -60,7 +60,7 @@ public class CourseController : ControllerBase
 
     [HttpGet]
     public async Task<ActionResult> GetCourses(
-        string? keyword, int? category,
+        string? keyword, string? category,
         int? minPrice, int? maxPrice,
         int page = 1, int pageSize = 10)
     {

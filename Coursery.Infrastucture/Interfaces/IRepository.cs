@@ -15,5 +15,4 @@ public interface IRepository<TEntity> : IDisposable
         { 
                 return _context.SaveChangesAsync();
         }
-        
 }
